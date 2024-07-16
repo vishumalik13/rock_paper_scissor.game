@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scoreboard">
+        <h3>
+            ROCK <br> PAPER<br> SCISSORS
+        </h3>
+        <div>
+            <p>
+                SCORE
+            </p>
+            <p id="score" style="font-size: 35px; color:hsl(229, 25%, 31%);">
+                0
+            </p>
+        </div>
+
+    </div>
+
+    <section class="temp2 input-screen">
+    <div class="temp">
+        <div class="rock game" id="rock">
+            <img src="./Images/icon-rock.svg" alt="">
+        </div>
+        <div class="paper game" id="paper">
+            <img src="./Images/icon-paper.svg" alt="">
+        </div>
+    </div>
+        <div class="scissors game" id="scissors">
+            <img src="./Images/icon-scissors.svg" alt="">
+
+        </div>
+
+    </section>
+
+    <section class="temp2 output-screen hide">
+        <div class="output-screen-inner">
+            
+            <div>
+                <h2>You</h2>
+                <div class="game"  id="user-move">
+                <img src="" alt="">
+                </div>
+            </div>
+            
+
+            <p class="vs">VS</p>
+
+            <div>
+                <h2>Computer</h2>
+                <div class="game animate" id="computer-move">
+                <img   src="" alt="">
+               </div>
+            </div>
+            
+        </div>
+        <p id="result-string" class="result"></p>
+
+        <button id="rematch" class="btn">Rematch</button>
+    </section>
+    
+    <script src="script.js"></script>
+<body>
+    
+</body>
+</html>

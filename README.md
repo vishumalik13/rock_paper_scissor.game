@@ -1,2 +1,2 @@
-# rock_paper_scissor.game
-rock paper scissor game using Html Css JavaScript and using ElectrojJS framework
+# ELECTRON-rock-paper-scissor
+This is an Electron practice project of creating rock paper scissor.
